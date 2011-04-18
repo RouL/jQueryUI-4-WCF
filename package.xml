@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="info.codingcorner.wcf.js.jquery.ui" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename>jQuery UI</packagename>
+		<packagedescription>jQuery UI integration for the WCF 1.1</packagedescription>
+		<isunique>1</isunique>
+		<version>1.8.11</version>
+		<date>2011-04-18</date>
+	</packageinformation>
+
+	<authorinformation>
+		<author>RouL</author>
+		<authorurl>http://codingcorner.info/</authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="1.5.2">info.codingcorner.wcf.js.jquery</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<files>files.tar</files>
+		<eventlistener>eventlistener.xml</eventlistener>
+	</instructions>
+</package>
